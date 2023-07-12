@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 export default function Button({ children, ...props }) {
   return (
-    <button type="button" className={styles.button} {...props}>
+    <button className={styles.button} {...props}>
       {children}
     </button>
   );

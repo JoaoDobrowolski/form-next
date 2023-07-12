@@ -12,6 +12,12 @@
     gap: 10px;
 }
 
-.linke {
+.link {
+    text-align: center;
+}
+
+.error {
+    color: black;
+    font-weight: bold;
     text-align: center;
 }
